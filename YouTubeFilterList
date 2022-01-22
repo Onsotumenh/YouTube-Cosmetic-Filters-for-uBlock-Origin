@@ -1,0 +1,28 @@
+! Title:  YouTube-Cosmetic-Filters-for-uBlock-Origin
+! Description: Cosmetic filters to improve the search results and home section.
+! Home: https://github.com/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin
+
+! Search Results
+www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/For you/i))
+www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/People also watched/i))
+www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Previously watched/i))
+www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related to your search/i))
+www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related Movies/i))
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of-type(1):has(span:has-text(/Latest from/i))
+! Searches related to / People also search for / People also watched(on home)
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+! Music secondary(search results) / Related Videos(on video page)
+www.youtube.com###secondary
+
+! Home
+www.youtube.com##contents.ytd-shelf-renderer.style-scope:has(span:has-text(/People also watched/i))
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Watch again/i))
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com###star-survey
+www.youtube.com###merch-shelf > .ytd-watch-flexy.style-scope
+! Keyword Bar
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+! Voice Search Button
+www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope > .ytd-toggle-button-renderer.style-scope.yt-simple-endpoint > .style-text.ytd-toggle-button-renderer.style-scope
+www.youtube.com###voice-search-button
