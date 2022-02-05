@@ -27,3 +27,5 @@ www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com###voice-search-button
 ! Like/Dislike Count
 www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope > .ytd-toggle-button-renderer.style-scope.yt-simple-endpoint > .style-text.ytd-toggle-button-renderer.style-scope
+! Shorts
+www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(span:has-text(/Shorts/i))
