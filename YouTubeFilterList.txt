@@ -25,6 +25,12 @@ www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-sc
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 ! Voice Search Button
 www.youtube.com###voice-search-button
+
+! Video Page
+! Watch next / Related
+www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+! Related Keywords
+www.youtube.com###content > .yt-related-chip-cloud-renderer.style-scope
 ! Like/Dislike Count
 www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope > .ytd-toggle-button-renderer.style-scope.yt-simple-endpoint > .style-text.ytd-toggle-button-renderer.style-scope
 ! Shorts
