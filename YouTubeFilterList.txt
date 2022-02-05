@@ -1,3 +1,8 @@
+! Title:  YouTube-Cosmetic-Filters-for-uBlock-Origin
+! Description: Cosmetic filters to improve the search results and home section.
+! Home: https://github.com/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin
+
+
 ! Search Results
 www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/For you/i))
 www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/People also watched/i))
