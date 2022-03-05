@@ -16,7 +16,7 @@ www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.sty
 www.youtube.com###secondary
 
 ! Home
-www.youtube.com##contents.ytd-shelf-renderer.style-scope:has(span:has-text(/People also watched/i))
+www.youtube.com##contents.ytd-shelf-renderer.style-scope:has-text(/People also watched/i)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Watch again/i))
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/People also watched/i)
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
@@ -30,6 +30,8 @@ www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com###voice-search-button
 
 ! Video Page
+! Membership Popup
+www.youtube.com###contentWrapper > .ytd-popup-container.style-scope:has(span:has-text(/Membership/i))
 ! Watch next / Related
 www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
 ! Related Keywords
