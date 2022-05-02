@@ -13,8 +13,7 @@ www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/People also search for/i)
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/Searches related to/i)
 ! Shorts
-www.youtube.com###dismissible.ytd-video-renderer.style-scope:has-text(/#Shorts/i)
-www.youtube.com###dismissible.ytd-video-renderer.style-scope:has-text(SHORTS)
+www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(ytd-thumbnail.ytd-video-renderer.style-scope:has-text(/Shorts/i))
 ! Music secondary(search results) / Related Videos(on video page)
 www.youtube.com###secondary
 
