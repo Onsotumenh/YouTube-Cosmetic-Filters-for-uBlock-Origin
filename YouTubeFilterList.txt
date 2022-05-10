@@ -1,5 +1,5 @@
-! Title:  YouTube-Cosmetic-Filters-for-uBlock-Origin
-! Description: Cosmetic filters to improve the search results and home section.
+! Title:  YouTube-Cosmetic-Filters-for-uBlock-Origin - Complete version
+! Description: Cosmetic filters to improve the search results, home section and video page.
 ! Home: https://github.com/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin
 
 
@@ -12,10 +12,8 @@ www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related Movie
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of-type(1):has(span:has-text(/Latest from/i))
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/People also search for/i)
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/Searches related to/i)
-! Shorts
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(ytd-thumbnail.ytd-video-renderer.style-scope:has-text(/Shorts/i))
-! Music secondary(search results) / Related Videos(on video page)
-www.youtube.com###secondary
+
 
 ! Home
 www.youtube.com##contents.ytd-shelf-renderer.style-scope:has-text(/People also watched/i)
@@ -39,10 +37,15 @@ www.youtube.com###contentWrapper > .ytd-popup-container.style-scope:has(span:has
 www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
 ! Related Keywords
 www.youtube.com###content > .yt-related-chip-cloud-renderer.style-scope
-! Like/Dislike Count
-www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope > .ytd-toggle-button-renderer.style-scope.yt-simple-endpoint > .style-text.ytd-toggle-button-renderer.style-scope
 ! Shorts
 www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(span:has-text(/Shorts/i))
 www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(span:has-text(SHORTS))
 www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(/Shorts/i)))
 www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(SHORTS)))
+
+! Optional
+www.youtube.com##.ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-suggestive.ytd-button-renderer.style-scope
+! Like/Dislike Count
+www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope > .ytd-toggle-button-renderer.style-scope.yt-simple-endpoint > .style-text.ytd-toggle-button-renderer.style-scope
+! Music secondary(search results) / Related Videos(on video page)
+www.youtube.com###secondary
