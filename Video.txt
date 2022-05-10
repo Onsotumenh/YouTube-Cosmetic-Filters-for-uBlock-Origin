@@ -1,0 +1,17 @@
+! Title:  YouTube-Cosmetic-Filters-for-uBlock-Origin - Video page only
+! Description: Cosmetic filters to improve the video page.
+! Home: https://github.com/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin
+
+
+! Video Page
+! Membership Popup
+www.youtube.com###contentWrapper > .ytd-popup-container.style-scope:has(span:has-text(/Membership/i))
+! Watch next / Related
+www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+! Related Keywords
+www.youtube.com###content > .yt-related-chip-cloud-renderer.style-scope
+! Shorts
+www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(span:has-text(/Shorts/i))
+www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(span:has-text(SHORTS))
+www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(/Shorts/i)))
+www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(SHORTS)))
