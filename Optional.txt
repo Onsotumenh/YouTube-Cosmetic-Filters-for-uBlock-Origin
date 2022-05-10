@@ -1,0 +1,10 @@
+! Title:  YouTube-Cosmetic-Filters-for-uBlock-Origin - Optional Filters
+! Description: Cosmetic filters optional section.
+! Home: https://github.com/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin
+
+! Optional
+www.youtube.com##.ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-suggestive.ytd-button-renderer.style-scope
+! Like/Dislike Count
+www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope > .ytd-toggle-button-renderer.style-scope.yt-simple-endpoint > .style-text.ytd-toggle-button-renderer.style-scope
+! Music secondary(search results) / Related Videos(on video page)
+www.youtube.com###secondary
