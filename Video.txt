@@ -4,6 +4,8 @@
 
 
 ! Video Page
+www.youtube.com###paid-comment-images
+www.youtube.com###paid-comment-chip > .yt-pdg-comment-chip-renderer.style-scope
 ! Membership Popup
 www.youtube.com###contentWrapper > .ytd-popup-container.style-scope:has(span:has-text(/Membership/i))
 ! Watch next / Related
