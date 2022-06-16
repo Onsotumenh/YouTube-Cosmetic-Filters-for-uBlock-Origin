@@ -11,8 +11,13 @@ www.youtube.com###star-survey
 www.youtube.com###merch-shelf > .ytd-watch-flexy.style-scope
 www.youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com###content > .ytd-rich-item-renderer.style-scope:has(span:has-text(/Shorts/i))
+www.youtube.com###content > .ytd-rich-item-renderer.style-scope:has(span:has-text(SHORTS))
+www.youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/#Shorts/i)
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
 ! Keyword Bar
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 ! Voice Search Button
 www.youtube.com###voice-search-button
+!shorts category
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Shorts/i)
