@@ -3,17 +3,19 @@
 ! Home: https://github.com/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin
 
 ! Home
+! Home
 www.youtube.com##contents.ytd-shelf-renderer.style-scope:has-text(/People also watched/i)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Watch again/i))
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/People also watched/i)
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
-www.youtube.com###star-survey
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > #star-survey
 www.youtube.com###merch-shelf > .ytd-watch-flexy.style-scope
-www.youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
-www.youtube.com###content > .ytd-rich-item-renderer.style-scope:has(span:has-text(/Shorts/i))
-www.youtube.com###content > .ytd-rich-item-renderer.style-scope:has(span:has-text(SHORTS))
-www.youtube.com###content > .ytd-rich-item-renderer.style-scope:has-text(/#Shorts/i)
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > .ytd-feed-nudge-renderer.style-scope
+!Shorts
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(span:has-text(/Shorts/i))
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(span:has-text(SHORTS))
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has-text(/#Shorts/i)
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
 ! Keyword Bar
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
