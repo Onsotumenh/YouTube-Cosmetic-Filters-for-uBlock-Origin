@@ -17,3 +17,4 @@ www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(span:
 www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(span:has-text(SHORTS))
 www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(/Shorts/i)))
 www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(SHORTS)))
+www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
