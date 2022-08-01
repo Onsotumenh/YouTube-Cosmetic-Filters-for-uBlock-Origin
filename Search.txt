@@ -14,5 +14,4 @@ www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.sty
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/Searches related to/i)
 ! Shorts
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(ytd-thumbnail.ytd-video-renderer.style-scope:has-text(/Shorts/i))
-www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
 www.youtube.com###content > .ytd-video-renderer.style-scope:has-text(/#Shorts/i)
