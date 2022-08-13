@@ -10,7 +10,8 @@ www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related to yo
 www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Related Movies/i))
 www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/New for you/i))
 www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Channels new to you/i))
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of-type(1):has(span:has-text(/Latest from/i))
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Results for similar searches/i))
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Latest from/i))
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/People also search for/i)
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/Searches related to/i)
 ! Shorts
