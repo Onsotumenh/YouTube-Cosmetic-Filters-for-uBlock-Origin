@@ -13,6 +13,7 @@ www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/New for you/i
 www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/Channels new to you/i))
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Latest from/i))
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Results for similar searches/i))
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(/From related searches/i)
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/People also search for/i)
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/Searches related to/i)
 www.youtube.com##ytd-movie-renderer.ytd-item-section-renderer.style-scope
