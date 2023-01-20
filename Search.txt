@@ -22,3 +22,5 @@ www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(ytd-thumbnail.y
 www.youtube.com###content > .ytd-video-renderer.style-scope:has-text(/#Shorts/i)
 www.youtube.com###ytd-video-renderer.ytd-item-section-renderer.style-scope:has-text(/#shorts/i)
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
+www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has-text(/\s(0:\d\d|1:\d\d)\s/))
+
