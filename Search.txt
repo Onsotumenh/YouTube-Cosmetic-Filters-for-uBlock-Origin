@@ -18,7 +18,7 @@ www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.sty
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/Searches related to/i)
 www.youtube.com##ytd-movie-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(/Latest Posts From/i)
 www.youtube.com###about-these-results
 !Shorts
 www.youtube.com###shorts-container
