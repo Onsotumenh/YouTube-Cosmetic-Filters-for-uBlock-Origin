@@ -18,10 +18,12 @@ www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.sty
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/Searches related to/i)
 www.youtube.com##ytd-movie-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com###about-these-results
 !Shorts
+www.youtube.com###shorts-container
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(ytd-thumbnail.ytd-video-renderer.style-scope:has-text(/Shorts/i))
 www.youtube.com###content > .ytd-video-renderer.style-scope:has-text(/#Shorts/i)
 www.youtube.com###ytd-video-renderer.ytd-item-section-renderer.style-scope:has-text(/#shorts/i)
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has-text(/\s(0:\d\d|1:\d\d)\s/))
-
