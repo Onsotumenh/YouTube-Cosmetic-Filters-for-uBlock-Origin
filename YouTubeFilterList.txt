@@ -17,9 +17,9 @@ www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(sp
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(/From related searches/i)
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/People also search for/i)
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/Searches related to/i)
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/Related chapters/i)
 www.youtube.com##ytd-movie-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com###about-these-results
 !Shorts
 www.youtube.com###shorts-container
@@ -34,6 +34,9 @@ www.youtube.com##contents.ytd-shelf-renderer.style-scope:has-text(/People also w
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(span:has-text(/Watch again/i))
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(/People also watched/i)
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > #star-survey
+www.youtube.com###merch-shelf > .ytd-watch-flexy.style-scope
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com##ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope
@@ -57,7 +60,7 @@ www.youtube.com###paid-comment-chip > .yt-pdg-comment-chip-renderer.style-scope
 www.youtube.com###paid-comment-background
 ! Membership Popup
 www.youtube.com###contentWrapper > .ytd-popup-container.style-scope:has(span:has-text(/Membership/i))
- Watch next / Related
+! Watch next / Related
 www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
 ! Related Keywords
 www.youtube.com###content > .yt-related-chip-cloud-renderer.style-scope
