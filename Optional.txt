@@ -8,3 +8,5 @@ www.youtube.com##.ytd-button-renderer.style-scope.yt-simple-endpoint > .size-def
 www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope > .ytd-toggle-button-renderer.style-scope.yt-simple-endpoint > .style-text.ytd-toggle-button-renderer.style-scope
 ! Music secondary(search results) / Related Videos(on video page)
 www.youtube.com###secondary
+! Premium Videos
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > .ytd-rich-item-renderer.style-scope:has(.ytd-rich-grid-media.style-scope.video-badge:has-text(Premium))
