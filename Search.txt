@@ -21,6 +21,7 @@ www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(/Latest Posts From/i)
 www.youtube.com###about-these-results
 www.youtube.com##ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope > .ytd-emergency-onebox-renderer.style-scope
+www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-ad-slot-renderer.style-scope
 !Shorts
 www.youtube.com###shorts-container
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(ytd-thumbnail.ytd-video-renderer.style-scope:has-text(/Shorts/i))
