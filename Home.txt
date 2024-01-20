@@ -18,6 +18,8 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(span:h
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(span:has-text(SHORTS))
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has-text(/#Shorts/i)
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
+! Reduce empty slots in grid
+youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
 ! Keyword Bar (removes "sort by" on video page)
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
