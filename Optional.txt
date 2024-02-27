@@ -6,7 +6,7 @@
 www.youtube.com##.ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-suggestive.ytd-button-renderer.style-scope
 ! Like/Dislike Count
 www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-menu-renderer.style-scope > .ytd-toggle-button-renderer.style-scope.yt-simple-endpoint > .style-text.ytd-toggle-button-renderer.style-scope
-! Music secondary(search results) / Related Videos(on video page)
-www.youtube.com###secondary
+! Music secondary(search results)
+www.youtube.com###contents > .ytd-secondary-search-container-renderer.style-scope
 ! Premium Videos
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > .ytd-rich-item-renderer.style-scope:has(.ytd-rich-grid-media.style-scope.video-badge:has-text(Premium))
