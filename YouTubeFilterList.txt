@@ -30,8 +30,6 @@ www.youtube.com###shorts-container
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(ytd-thumbnail.ytd-video-renderer.style-scope:has-text(/Shorts/i))
 www.youtube.com###content > .ytd-video-renderer.style-scope:has-text(/#Shorts/i)
 www.youtube.com###ytd-video-renderer.ytd-item-section-renderer.style-scope:has-text(/#shorts/i)
-www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
-www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has-text(/\s(0:\d\d|1:\d\d)\s/))
 
 ! Home
 www.youtube.com##contents.ytd-shelf-renderer.style-scope:has-text(/People also watched/i)
@@ -48,7 +46,6 @@ www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-sco
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(span:has-text(/Shorts/i))
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(span:has-text(SHORTS))
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has-text(/#Shorts/i)
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
 ! Reduce empty slots in grid
 youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
@@ -75,7 +72,6 @@ www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(span:
 www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(span:has-text(SHORTS))
 www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(/Shorts/i)))
 www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(SHORTS)))
-www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
 
 ! Optional
 www.youtube.com##.ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-suggestive.ytd-button-renderer.style-scope
@@ -85,3 +81,10 @@ www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-men
 www.youtube.com###contents > .ytd-secondary-search-container-renderer.style-scope
 ! Premium Videos
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > .ytd-rich-item-renderer.style-scope:has(.ytd-rich-grid-media.style-scope.video-badge:has-text(Premium))
+! Time Based Shorts Filters
+  ! Search Results
+www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
+www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has-text(/\s(0:\d\d|1:\d\d)\s/))
+  ! Home
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
+  ! Video Page
