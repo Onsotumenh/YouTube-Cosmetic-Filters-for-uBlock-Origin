@@ -10,3 +10,11 @@ www.youtube.com##ytd-toggle-button-renderer.style-text.force-icon-button.ytd-men
 www.youtube.com###contents > .ytd-secondary-search-container-renderer.style-scope
 ! Premium Videos
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > .ytd-rich-item-renderer.style-scope:has(.ytd-rich-grid-media.style-scope.video-badge:has-text(Premium))
+! Time Based Shorts Filters
+  ! Search Results
+www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
+www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has-text(/\s(0:\d\d|1:\d\d)\s/))
+  ! Home
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
+  ! Video Page
+www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
