@@ -13,10 +13,6 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > .ytd-fee
 www.youtube.com##ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope
-!Shorts
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(span:has-text(/Shorts/i))
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(span:has-text(SHORTS))
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has-text(/#Shorts/i)
 ! Reduce empty slots in grid
 youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
@@ -25,5 +21,3 @@ www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-sc
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 ! Voice Search Button
 www.youtube.com###voice-search-button
-!shorts category
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Shorts/i)
