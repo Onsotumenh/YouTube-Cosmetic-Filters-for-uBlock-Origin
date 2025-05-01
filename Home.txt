@@ -13,6 +13,7 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > .ytd-fee
 www.youtube.com##ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer.style-scope
+www.youtube.com##.ytd-app.style-scope.with-chipbar
 ! Reduce empty slots in grid
 youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
