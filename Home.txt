@@ -19,5 +19,6 @@ youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: conten
 ! Keyword Bar (removes "sort by" on video page)
 www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
 www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
+www.youtube.com###frosted-glass:style(height: 55px !important;)
 ! Voice Search Button
 www.youtube.com###voice-search-button
