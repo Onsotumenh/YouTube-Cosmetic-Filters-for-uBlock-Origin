@@ -17,3 +17,23 @@ https://raw.githubusercontent.com/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock
 https://raw.githubusercontent.com/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin/main/Optional.txt
 
 If you only want certain filters, copy them out of the .txt and put them in the "my filters" tab in the uBlock dashboard. Those won't update when the repository updates.
+
+ 
+ 
+ 
+ 
+
+
+Following screenshots show the full filter list
+
+![Home](https://github.com/user-attachments/assets/7a45a9fc-d83d-4beb-b912-ed47da41c589)
+
+
+
+
+![Search](https://github.com/user-attachments/assets/fd946c3c-d852-40af-b729-6e7f671b785c)
+
+
+
+
+![Video](https://github.com/user-attachments/assets/1e25e3de-d67f-443a-ac1f-16adc85b3729)
