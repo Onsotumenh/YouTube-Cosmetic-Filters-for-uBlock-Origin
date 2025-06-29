@@ -14,7 +14,3 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope > .ytd-ric
   ! Search Results
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
 www.youtube.com###dismissible.ytd-video-renderer.style-scope:has(.ytd-thumbnail-overlay-time-status-renderer.style-scope:has-text(/\s(0:\d\d|1:\d\d)\s/))
-  ! Home
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
-  ! Video Page
-www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has(span:has-text(/\s(0:\d\d|1:\d\d)\s/)))
