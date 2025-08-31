@@ -22,3 +22,4 @@ www.youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has(span:
 www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(/Shorts/i)))
 www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(SHORTS)))
 www.youtube.com##yt-tab-shape.yt-tab-shape-wiz--host-clickable.yt-tab-shape-wiz:has-text(Shorts)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope:has-text(Shorts remixing this video)
