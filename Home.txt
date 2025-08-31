@@ -9,6 +9,8 @@ www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.sty
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com##.ytd-app.style-scope.with-chipbar
+www.youtube.com##.ytSlimlineSurveyViewModelHost
+www.youtube.com##.ytd-rich-grid-media.style-scope > .ytd-slimline-survey-renderer.style-scope
 
 ! More Video Thumbs
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 5 !important;)
