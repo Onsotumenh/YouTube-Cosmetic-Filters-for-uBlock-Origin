@@ -44,6 +44,7 @@ www.youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.
 www.youtube.com##.ytd-app.style-scope.with-chipbar
 www.youtube.com##.ytSlimlineSurveyViewModelHost
 www.youtube.com##.ytd-rich-grid-media.style-scope > .ytd-slimline-survey-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Explore more topics)
 ! More Video Thumbs
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 5 !important;)
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 5 !important;)
@@ -65,6 +66,8 @@ www.youtube.com###paid-comment-images
 www.youtube.com###paid-comment-chip > .yt-pdg-comment-chip-renderer.style-scope
 www.youtube.com###paid-comment-background
 www.youtube.com###ticket-shelf
+www.youtube.com###expandable-metadata:has-text(AI-generated)
+www.youtube.com##.ytp-fullscreen-grid-stills-container
 ! Membership Popup
 www.youtube.com###contentWrapper > .ytd-popup-container.style-scope:has(span:has-text(/Membership/i))
 ! Watch next / Related
@@ -78,6 +81,12 @@ www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-c
 www.youtube.com###contents > .ytd-item-section-renderer.style-scope:has(#title-container:has(span:has-text(SHORTS)))
 www.youtube.com##yt-tab-shape.yt-tab-shape-wiz--host-clickable.yt-tab-shape-wiz:has-text(Shorts)
 www.youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer.style-scope:has-text(Shorts remixing this video)
+!Channels Page
+www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(Posts)
+www.youtube.com##yt-tab-shape.yt-tab-shape--host-clickable.yt-tab-shape:has-text(Shorts)
+www.youtube.com##yt-tab-shape.yt-tab-shape--host-clickable.yt-tab-shape:has-text(Posts)
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Members only)
+www.youtube.com##yt-tab-shape.yt-tab-shape--host-clickable.yt-tab-shape:has-text(Store)
 
 ! Optional
 www.youtube.com##.ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-suggestive.ytd-button-renderer.style-scope
