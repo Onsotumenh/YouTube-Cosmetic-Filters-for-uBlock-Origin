@@ -14,3 +14,8 @@ www.youtube.com###contentWrapper > .ytd-popup-container.style-scope:has(span:has
 www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
 ! Related Keywords
 www.youtube.com###content > .yt-related-chip-cloud-renderer.style-scope
+!Channels Page
+www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(Posts)
+www.youtube.com##yt-tab-shape.yt-tab-shape--host-clickable.yt-tab-shape:has-text(Posts)
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Members only)
+www.youtube.com##yt-tab-shape.yt-tab-shape--host-clickable.yt-tab-shape:has-text(Store)
