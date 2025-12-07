@@ -8,6 +8,8 @@ www.youtube.com###paid-comment-images
 www.youtube.com###paid-comment-chip > .yt-pdg-comment-chip-renderer.style-scope
 www.youtube.com###paid-comment-background
 www.youtube.com###ticket-shelf
+www.youtube.com###expandable-metadata:has-text(AI-generated)
+www.youtube.com##.ytp-fullscreen-grid-stills-container
 ! Membership Popup
 www.youtube.com###contentWrapper > .ytd-popup-container.style-scope:has(span:has-text(/Membership/i))
 ! Watch next / Related
