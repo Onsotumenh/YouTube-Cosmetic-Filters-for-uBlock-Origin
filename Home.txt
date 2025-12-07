@@ -11,6 +11,8 @@ www.youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.
 www.youtube.com##.ytd-app.style-scope.with-chipbar
 www.youtube.com##.ytSlimlineSurveyViewModelHost
 www.youtube.com##.ytd-rich-grid-media.style-scope > .ytd-slimline-survey-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Explore more topics)
+
 
 ! More Video Thumbs
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 5 !important;)
