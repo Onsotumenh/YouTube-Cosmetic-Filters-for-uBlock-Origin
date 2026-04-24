@@ -25,5 +25,6 @@ www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-te
 www.youtube.com###about-these-results
 www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-ad-slot-renderer.style-scope
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
+www.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has-text(Pay to watch)
 ! Crisis Resource Panel
 www.youtube.com##ytd-emergency-onebox-renderer.ytd-item-section-renderer.style-scope > .ytd-emergency-onebox-renderer.style-scope
